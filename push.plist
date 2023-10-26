@@ -11,8 +11,8 @@
 				<key>kind</key>
 				<string>software-package</string>
 				<key>url</key>
-				<string>https://kblalimidev.kblife.co.kr/kblalimi.ipa</string>
-				<!--string>https://notice.kbli.co.kr/upload/kblalimi.ipa</string-->
+				<!--string>https://kblalimidev.kblife.co.kr/kblalimi.ipa</string-->
+				<string>https://notice.kbli.co.kr/upload/kblalimi.ipa</string>
 				<!--string>https://push.itapi.org/kblalimi.ipa</string-->
 				</dict>
 				</array>

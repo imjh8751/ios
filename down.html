@@ -7,6 +7,9 @@
       function getDownIos() {
         window.location.href = 'itms-services://?action=download-manifest&url=https://down.kblife.co.kr/setup/app/KBLAS/sfa.plist'
       }
+      function getDownIos2() {
+        window.location.href = 'itms-services://?action=download-manifest&url=https://github.com/imjh8751/ios/blob/73bf315201e147ecedf2d0be1c903e6e5f632018/sfa.plist'
+      }
       
       function getDownPush() {
         window.location.href = 'itms-services://?action=download-manifest&url=https://kblalimidev.kblife.co.kr/kblalimi.plist'
@@ -26,6 +29,11 @@
       </button>
     </div>
     
+    <div>
+      <button type="button" class="ios" onclick="getDownIos2()">
+        <span class="ios-logo"></span><span>IOS2</span>
+      </button>
+    </div>
     <div>
       <button type="button" class="ios" onclick="getDownPush()">
         <span class="ios-logo"></span><span>PUSH1</span>

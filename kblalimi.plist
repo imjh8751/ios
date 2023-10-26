@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>kblalimi.ipa</key>
+        <array>
+                <dict>
+                        <key>architectures</key>
+                        <array>
+                                <string>arm64</string>
+                        </array>
+                        <key>asset</key>
+                        <array>
+                                <dict>
+                                        <key>kind</key>
+                                        <string>software-package</string>
+                                        <key>url</key>
+                                        <string>https://notice.kbli.co.kr/upload/kblalimi.ipa</string>
+                                </dict>
+                        </array>
+                        <key>metadata</key>
+                        <dict>
+                                <key>bundle-identifier</key>
+                                <string>kr.co.kblife.app.push</string>
+                                <key>bundle-veersion</key>
+                                <string>1.1.0</string>
+                                <key>kind</key>
+                                <string>software</string>
+                                <key>platform-identifier</key>
+                                <string>com.apple.platform.iphoneos</string>
+                                <key>title</key>
+                                <string>kblalimi</string>
+                        </dict>
+                        <key>buildNumber</key>
+                        <string>1</string>
+                        <key>certificate</key>
+                        <dict>
+                                <key>SHA1</key>
+                                <string>0818E9EBC27671F3E22870EE151AD4F0CAD8019F</string>
+                                <key>dateExpires</key>
+                                <string>2025/02/17</string>9
+                                <key>type</key>
+                                <string>Cloud Managed iOS Distribution</string>
+                        </dict>
+                        <key>entitlements</key>
+                        <dict>
+                                <key>application-identifier</key>
+                                <string>DLUHZFSF5X.kr.co.kbli.notice</string>
+                                <!--string>DLUHZFSF5X.kr.co.kblife.app.push</string-->
+                                <key>aps-environment</key>
+                                <string>production</string>
+                                <key>com.apple.developer.team-identifier</key>
+                                <string>DLUHZFSF5X</string>
+                                <key>get-task-allow</key>
+                                <false/>
+                        </dict>
+                        <key>name</key>
+                        <string>kblalimi.app</string>
+                        <key>profile</key>
+                        <dict>
+                                <key>UUID</key>
+                                <string>edcf5607-d250-4341-9e2a-3dcc1408f6c8</string>
+                                <key>dateExpires</key>
+                                <string>2024/10/23</string>
+                                <key>name</key>
+                                <!--string>iOS Team Inhouse Provisioning Profile: kblalimidev.kblife.co.kr</string-->
+                                <string>iOS Team Inhouse Provisioning Profile: kr.co.kbli.notice</string>
+                                <!--string>iOS Team Inhouse Provisioning Profile: kr.co.kblife.app.push</string-->
+                        </dict>
+                        <key>team</key>
+                        <dict>
+                                <key>id</key>
+                                <string>DLUHZFSF5X</string>
+                                <key>name</key>
+                                <string>KB Life Insurance Company</string>
+                        </dict>
+                        <key>versionNumber</key>
+                        <string>1.0.0</string>
+                </dict>
+        </array>
+</dict>
+</plist>

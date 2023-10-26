@@ -14,6 +14,9 @@
       function getDownPush() {
         window.location.href = 'itms-services://?action=download-manifest&url=https://kblalimidev.kblife.co.kr/kblalimi.plist'
       }
+      function getDownPush2() {
+        window.location.href = 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/imjh8751/ios/main/kblalimi.plist'
+      }
       function getDownPush3() {
         window.location.href = 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/imjh8751/ios/main/push.plist'
       }
@@ -34,6 +37,11 @@
     <div>
       <button type="button" class="ios" onclick="getDownPush()">
         <span class="ios-logo"></span><span>PUSH[kblalimidev.kblife.co.kr/kblalimi.plist]</span>
+      </button>
+    </div>
+    <div>
+      <button type="button" class="ios" onclick="getDownPush2()">
+        <span class="ios-logo"></span><span>PUSH[raw.githubusercontent.com/imjh8751/ios/main/kblalimi.plist]</span>
       </button>
     </div>
     <div>
